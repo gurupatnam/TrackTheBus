@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_login"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@drawable/background"
+    tools:context="com.example.guru.trackthebus.Login">
+
+    <Button
+        android:text="Signup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button4"
+        android:background="@drawable/roundbutton"
+        android:layout_below="@+id/button3"
+        android:layout_alignLeft="@+id/button3"
+        android:layout_alignStart="@+id/button3"
+        android:layout_marginTop="40dp"
+        android:textStyle="normal|bold"
+        android:textColor="#ffffff" />
+
+    <Button
+        android:text="Login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button3"
+        android:background="@drawable/roundbutton"
+        android:layout_marginTop="87dp"
+        android:layout_below="@+id/editText7"
+        android:layout_centerHorizontal="true"
+        android:textColor="#ffffff"
+        android:textStyle="normal|bold"
+         />
+
+    <EditText
+        android:layout_height="40dp"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:drawableLeft="@drawable/userser"
+        android:background="@drawable/roundededit"
+        android:id="@+id/editText6"
+        android:textAppearance="@style/TextAppearance.AppCompat.Title"
+        tools:textColor="#111111"
+        android:layout_marginTop="59dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignLeft="@+id/editText7"
+        android:layout_alignStart="@+id/editText7"
+        android:layout_width="300dp"
+        android:hint="USERNAME"
+        android:textAlignment="center"
+        android:textStyle="normal|bold" />
+
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/editText7"
+        android:drawableLeft="@drawable/lockgp"
+        android:background="@drawable/roundededit"
+        android:textAppearance="@style/TextAppearance.AppCompat.Title"
+        android:textColor="#111111"
+        android:layout_marginTop="60dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginEnd="30dp"
+        android:layout_below="@+id/editText6"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:hint="PASSWORD"
+        android:textAlignment="center"
+        android:textStyle="normal|bold" />
+
+</RelativeLayout>
